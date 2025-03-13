@@ -1,3 +1,5 @@
+# DragonRuby Game Toolkit Unofficial docs
+
 # Disclaimer
 
 The information provided in these documents is for general informational purposes only and is not guaranteed to be accurate, complete, or up to date. While we strive to keep the content relevant and correct, we make no warranties or representations regarding its accuracy, reliability, or applicability to any specific situation. These documents do not constitute legal, technical, or professional advice. Use of this information is at your own risk, and we disclaim any liability arising from reliance on it. For the most current and authoritative information, please consult the official documentation or seek professional guidance.
