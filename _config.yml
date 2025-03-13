@@ -1,6 +1,8 @@
+title: DragonRuby Toolkit Unofficial docs
+description: Useful docs gathered from Discord's threads and conversations
+
 remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-title: DragonRuby Toolkit Unofficial docs
-description: Useful docs gathered from Discord's threads and conversations
+
