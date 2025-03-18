@@ -74,3 +74,33 @@ When you enable HD mode, and set HD Max Scale to a value other than 0,DR will re
 In the scenario where you have the window maximized (not full-screeed) on a 1080p monitor, the game will render at 1.25x. There is a side-effect though. You'll see a "fatter" letter box around your game (which can look weird). But this is the price you pay if you want pixel perfect. Usually you can get away with enabling High DPI (native sub-pixel rendering, and keeping HD Max Scale at 0 (scale to fit/not pixel perfect).
 
 The fat letter box can be rectified by disabling letter boxing all together, and then updating your game so that it renders edge to edge. The benefit of this is someone playing your game on an ultra wide would see more of the game, with the "safe area" being centered in their monitor. It's a really nice result, but again, it requires more work.
+
+# Publish HTML5 version to itch
+
+Setup your game's itch page so that gameid is generated and available (don't forget to save the page!), then fill out metadata.txt:
+```
+devid=bob
+devtitle=Bob The Game Developer
+gameid=mygame
+gametitle=My Game
+version=0.1
+```
+
+Reference:
+```
+[devid].itch.io/[gameid]
+ie.
+bob.itch.io/mygame
+```
+
+Mac/Linux shell
+```
+./dragonruby-publish --platforms=html5
+```
+
+Windows powershell
+```
+./dragonruby-publish.exe mygame --platforms=html5 
+```
+
+The publisher will ignore the standalone versions and only publish the web version. Remove platforms if you want all of the supported exports.
