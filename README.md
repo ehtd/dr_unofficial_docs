@@ -104,3 +104,6 @@ Windows powershell
 ```
 
 The publisher will ignore the standalone versions and only publish the web version. Remove platforms if you want all of the supported exports.
+
+More info here: https://docs.dragonruby.org/#/guides/deploying-to-itch
+
